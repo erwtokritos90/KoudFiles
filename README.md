@@ -171,10 +171,6 @@ Before you begin your first deployment, make sure you have working credentials f
 ````
 
 
-````bash
- ./gradlew <your_user_name>Stage deployApi --parallel
-````
-
 ### Upload ApiDoc
 
 To upload ApiDoc execute in Reporting: (needs to be run together with `<your_user_name>Stage` task)

@@ -172,7 +172,7 @@ Before you begin your first deployment, make sure you have working credentials f
 
 
 ````bash
-    ./gradlew <your_user_name>Stage deployApi --parallel
+ ./gradlew <your_user_name>Stage deployApi --parallel
 ````
 
 ### Upload ApiDoc

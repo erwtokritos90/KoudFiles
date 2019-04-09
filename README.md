@@ -145,7 +145,6 @@ devstage.lambdaEnv.BillingReportAggregator_BillingAccountReportAggregatorHandler
 
 To deploy, execute in Reporting:
 
-<<<<<<< HEAD
 Before you begin your first deployment, make sure you have working credentials for AWS Console from Conti. To access the AWS Console from a web browser, please visit ADFS, login with your Conti credentials and select Sign-In for Amazon Web Services.
 
 1. From Reporting root folder run the following
@@ -171,9 +170,10 @@ Before you begin your first deployment, make sure you have working credentials f
  ./gradlew <your_user_name>Stage deployApi --parallel
 ````
 
-=======
+
+````bash
     ./gradlew <your_user_name>Stage deployApi --parallel
->>>>>>> parent of 84f65bfb... fix(REVDDEV-1558): Update the README.md file with the correct steps for successfull deployment on developers stage of Reporting
+````
 
 ### Upload ApiDoc
 
